@@ -7,6 +7,10 @@
  * ■ 下記を必要パッケージの後に読み込むのみこと
  *   <script src="byteMaxlength"></script>
  *
+ * ■ 最大長を超えた際の処理を変更したい場合
+ *   "ByteMaxlength.onOverflowed"を上書きすること
+ *   デフォルトは超過分を削除する
+ *
  * ■ 監視したいinput要素に下記を実装すること
  *   ・classに"byteMaxlength"をセットすること
  *   ・maxlengthにバイト数(半角=1,全角=2)をセットすること
