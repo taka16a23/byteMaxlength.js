@@ -4,7 +4,7 @@
  * ■ 必要パッケージ
  *   a23StringExtensions.js
  *
- * ■ 下記を必要パッケージの後に読み込むのみこと
+ * ■ 下記を必要パッケージの後に読み込むこと
  *   <script src="byteMaxlength"></script>
  *
  * ■ 最大長を超えた際の処理を変更したい場合
